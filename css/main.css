@@ -1,0 +1,37 @@
+
+html {
+  box-sizing: border-box;
+  line-height: 1.5rem;
+
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: #d05c2e;
+  line-height: 1.5rem;
+}
+
+h1 {
+  color: #fff;
+  font-size: 2rem;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none:
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+  font-size: 1.125rem;
+  text-align: center;
+  display: inline;
+}
+
+img {
+  width: 40px;
+}
