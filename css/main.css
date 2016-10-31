@@ -1,8 +1,6 @@
 
 html {
   box-sizing: border-box;
-  line-height: 1.5rem;
-
 }
 
 *, *::before, *::after {
@@ -17,21 +15,27 @@ header {
 h1 {
   color: #fff;
   font-size: 2rem;
-  font-family: 'Merriweather', serif;
+  font-family: Merriweather, serif;
   text-align: center;
   list-style-type: none;
-  text-decoration: none:
+  text-decoration: none;
 }
 
 li {
   list-style-type: none;
   text-decoration: none;
-  font-family: 'Merriweather', serif;
+  font-family: Merriweather, serif;
   font-size: 1.125rem;
   text-align: center;
-  display: inline;
+  color: #fff;
 }
 
-img {
+.img-1 {
   width: 40px;
+  float: left;
+}
+
+.img-2 {
+  width: 40px;
+  float: right;
 }
