@@ -1,6 +1,9 @@
 
 html {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -9,7 +12,6 @@ html {
 
 header {
   background-color: #d05c2e;
-  line-height: 1.5rem;
 }
 
 h1 {
@@ -17,17 +19,21 @@ h1 {
   font-size: 2rem;
   font-family: Merriweather, serif;
   text-align: center;
-  list-style-type: none;
-  text-decoration: none;
+  margin-top: 0;
 }
 
-li {
-  list-style-type: none;
-  text-decoration: none;
+.nav li {
   font-family: Merriweather, serif;
   font-size: 1.125rem;
   text-align: center;
-  color: #fff;
+  float: left;
+  background-color: #a63f38;
+  float: left;
+  width: 30%;
+  list-style-type: none;
+  border-width: thin;
+  border-style: solid;
+  display: block;
 }
 
 .img-1 {
@@ -38,4 +44,33 @@ li {
 .img-2 {
   width: 40px;
   float: right;
+}
+
+body {
+  margin: 0;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  background-color: #d05c2e;
+  list-style-type: none;
+  overflow: hidden;
+  font-size: 1.125rem;
+}
+
+.nav:hover {
+  background-color: #a63f38;
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: .5em;
 }
