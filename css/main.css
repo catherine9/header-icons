@@ -28,9 +28,9 @@ h1 {
   float: left;
   background-color: #d05c2e;
   width: 30%;
-  border-width: thin;
   border-style: solid;
   display: inline-block;
+  border-width: thin;
 }
 
 .img-1 {
@@ -69,4 +69,8 @@ nav a {
   text-decoration: none;
   color: #fff;
   display: block;
+}
+
+li:hover {
+  background-color: #a63f38;
 }
