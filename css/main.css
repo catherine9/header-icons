@@ -57,6 +57,10 @@ body {
   font-size: 1.125rem;
 }
 
+nav li:hover {
+  background-color: #a63f38;
+}
+
 ul {
   padding-left: 0;
   margin: 0;
