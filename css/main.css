@@ -57,7 +57,7 @@ nav {
   font-size: 1.125rem;
 }
 
-nav:hover {
+nav a:hover {
   background-color: #a63f38;
 }
 
